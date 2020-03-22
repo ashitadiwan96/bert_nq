@@ -55,7 +55,7 @@ MODEL_CLASSES = {
    # 'albert': (AlbertConfig, AlbertForQuestionAnswering, AlbertTokenizer)
 }
 
-model_path = '/home/ml/aorozc2/nlp/final_project/yao/transformers-master/examples/test_transfer_final'
+model_path = '/home/2019/adiwan4/bert-joint-baseline'
 model = torch.load(model_path+'/pytorch_model.bin')
 #print('model loaded')
 n_gpu = torch.cuda.device_count()
