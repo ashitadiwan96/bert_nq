@@ -55,7 +55,7 @@ MODEL_CLASSES = {
    # 'albert': (AlbertConfig, AlbertForQuestionAnswering, AlbertTokenizer)
 }
 
-model_path = '/home/2019/adiwan4/bert-joint-baseline'
+model_path = '/network/home/diwanash/bert-joint-baseline'
 model = torch.load(model_path+'/bert_joint.ckpt')
 #print('model loaded')
 n_gpu = torch.cuda.device_count()
