@@ -56,7 +56,7 @@ MODEL_CLASSES = {
 }
 
 model_path = '/home/2019/adiwan4/bert-joint-baseline'
-model = torch.load(model_path+'/pytorch_model.bin')
+model = torch.load(model_path+'/bert_joint.ckpt')
 #print('model loaded')
 n_gpu = torch.cuda.device_count()
 if n_gpu > 1:
