@@ -32,7 +32,7 @@ from transformers import (WEIGHTS_NAME, BertConfig,
                                   DistilBertConfig, DistilBertForQuestionAnswering, DistilBertTokenizer)
 
 from transformers import AdamW
-from transformers import WarmupLinearSchedule as get_linear_schedule_with_warmup
+
 
 from utils_newsqa import (read_newsqa_examples, convert_examples_to_features,
                          RawResult, write_predictions,
